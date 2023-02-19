@@ -141,8 +141,11 @@ body {
 
 .hero {
   height: calc(100vh - 85px);
-  padding-top: 260px;
   background: url("../images/bg.png") center center/cover no-repeat;
+}
+
+.hero__info {
+  padding-top: 260px;
 }
 
 .hero__title {

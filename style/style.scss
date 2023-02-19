@@ -122,14 +122,16 @@ body {
         height: 51px;
         width: 183px;
         padding: 0;
-        
+
     }
 }
 
 .hero {
     height: calc(100vh - 85px);
-    padding-top: 260px; 
     background: url('../images/bg.png') center center/cover no-repeat;
+    &__info {
+        padding-top: 260px;
+    }
     &__title {
         width: 440px;
         margin-bottom: 30px;
@@ -137,9 +139,6 @@ body {
     &__subtitle {
         width: 420px;
         margin-bottom: 45px;
-    }
-    &__btn {
-
     }
 }
 
