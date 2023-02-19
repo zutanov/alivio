@@ -4,6 +4,8 @@
 	<meta charset="UTF-8">
 	<title>FIGMA | Макеты для верстки — Верстка страницы</title>
 	<meta name="description" content="Макет для верстки сайта был взял с телеграм канала FIGMA | Макеты для верстки">
+	<link rel="stylesheet" href="style/style.min.css">
+	<link rel="stylesheet" href="style/font.css">
 </head>
 <body>
 		<!-- Начало: Данный блок удалять нельзя -->
@@ -76,7 +78,126 @@
 		<!-- Конец -->
 
 		<div class="main">
-			В данном блоке размещается верстка
+			<header class="header">
+				<div class="header__container container">
+					<div class="logo">
+						<a href="#"><img src="icons/logo.svg" alt="logo"></a>
+					</div>
+					<nav class="header__nav">
+						<a href="#" class="header__link">Why Alivio</a>
+						<a href="#" class="header__link">Solutions</a>
+						<a href="#" class="header__link">Community</a>
+						<a href="#" class="header__link">Pricing</a>
+					</nav>
+					<div class="header__login">
+						<a href="" class="header__signin">Sign in</a>
+						<button class="btn header__btn">Start Trial</button>
+					</div>
+				</div>
+			</header>
+			<section class="hero">
+				<div class="container">
+					<h1 class="section__title hero__title">Be aware, 
+						Manage well.</h1>
+					<div class="section__subtitle hero__subtitle">
+						Everyone experiences stress in different ways.
+Let Alivio guide you, in a personalized journal experience, to overcome your stress.
+					</div>
+					<button class="btn hero__btn">Find Your Way</button>
+				</div>
+			</section>
+			<section class="work">
+				<div class="container">
+					<h4 class="section__subtitle section__subtitle_fz24 work__subtitle">How it works</h4>
+					<div class="work__desc">
+						<h2 class="section__title section__title_fz50 work__title">Understand & Release 
+							the stress in 3 steps</h2>
+						<div class="section__subtitle section__subtitle_fz20 work__text">Alivio offers as many journals it takes, tackling different areas such as anxiety, overwhelmedness, sadness, or anger, and a variety of personal causes, to help you become aware of your emotions, and guide you in how to manage stress.</div>
+					</div>
+					<div class="work__items">
+						<div class="work__item work__item-first">
+							<div class="work__item-number">
+								<div class="section__title section__title_fz150 work__item-digit">01</div>
+								<div class="section__title section__title_fz30 work__item-title">Personalize</div>
+							</div>
+							<div class="section__subtitle section__subtitle_fz20 work__item-text">Answer a quick survey about how you express yourself, what causes you stress, and what area would you like to work on. This way, we can fully personalize your journal!</div>
+							<div class="work__item-img"><img src="images/work/1.png" alt="photo"></div>
+						</div>
+						<div class="work__item work__item-second">
+							<div class="work__item-number">
+								<div class="section__title section__title_fz150 work__item-digit">02</div>
+								<div class="section__title section__title_fz30 work__item-title">Write & Understand</div>
+							</div>
+							<div class="section__subtitle section__subtitle_fz20 work__item-text">Write, draw, reflect, understand. Alivio will guide you through the prompts and will help you manage your stress!</div>
+							<div class="work__item-img"><img src="images/work/2.png" alt="photo"></div>
+						</div>
+						<div class="work__item work__item-third">
+							<div class="work__item-number">
+								<div class="section__title section__title_fz150 work__item-digit">03</div>
+								<div class="section__title section__title_fz30 work__item-title">Alivio!</div>
+							</div>
+							<div class="section__subtitle section__subtitle_fz20 work__item-text">Now you are aware, and have a way to manage and overcome your own stress.
+								What are you waiting for? Alivio today!</div>
+							<div class="work__item-img"><img src="images/work/3.png" alt="photo"></div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="story">
+				<div class="story__container container">
+					<div class="story__info">
+						<h2 class="section__title section__title_fz50 story__title">Let's hear about Kayla's success story</h2>
+						<div class="section__subtitle section__subtitle_fz25 story__subtitle">See how well Alivio works in a real customer’s life.</div>
+						<button class="btn story__btn">Let’s get started</button>
+					</div>
+					<div class="story__video">
+						<img src="icons/play-white.svg" alt="play">
+					</div>
+				</div>
+			</section>
+			<section class="product">
+				<div class="product__container container">
+					<div class="product__content">
+						<div class="product__img">
+							<img src="images/product/5.png" class="product__photo" alt="photo">
+							<div class="product__card">
+								<div class="product__card-title">Customized For</div>
+								<div class="product__card-img">
+									<img src="images/product/5_mini.png" alt="photo" class="product__cad-avatar">
+								</div>
+								<div class="product__card-name">Mikayla</div>
+								<div class="product__card-subtitle">Your custom contents</div>
+								<ul>
+									<li class="product__card-list">Understand Your Stress</li>
+									<li class="product__card-list">Anger Management</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="product__info">
+						<h4 class="section__subtitle section__subtitle_fz25 product__subtitle">Our product</h4>
+						<h2 class="section__title section__title_fz50 product__title">You tell us your stress,
+							We make your diary</h2>
+						<div class="section__subtitle section__subtitle_fz20 product__text">
+							Everyone experiences it, and in different ways.
+							<br>
+							Let Alivio guide you, in a personalized journal experience, to overcome your stress.
+						</div>
+						<button class="btn product__btn">Find Your Way</button>
+					</div>
+				</div>
+			</section>
+			<footer class="footer">
+				<div class="container">
+					<div class="footer__logo">Alivio</div>
+					<ul>
+						<li><a href="#" class="section__subtitle section__subtitle_fz25 footer__link">Why Alivio</a></li>
+						<li><a href="#" class="section__subtitle section__subtitle_fz25 footer__link">Solutions</a></li>
+						<li><a href="#" class="section__subtitle section__subtitle_fz25 footer__link">Community</a></li>
+						<li><a href="#" class="section__subtitle section__subtitle_fz25 footer__link">Pricing</a></li>
+					</ul>
+				</div>
+			</footer>
 		</div>
 </body>
 </html>
