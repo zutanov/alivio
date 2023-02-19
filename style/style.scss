@@ -1,8 +1,4 @@
 
-body {
-    font-family: 'Lato';
-}
-
 .main {
     * {
         padding: 0;
@@ -38,6 +34,7 @@ body {
     }
 }
 .section__subtitle {
+    font-family: 'Lato';
     font-weight: 400;
     font-size: 20px;
     line-height: 31px;
